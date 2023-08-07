@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assessment 4 | 07.08</title>
+  </head>
+  <body>
+    <h1>Assessment 4 | 07.08</h1>
+
+    <script>
+      // Create a program that generates numbers from 1 to 100. For multiples of 3, display "Skill"; for multiples of 5, display "Safari"; and for numbers that are multiples of both 3 and 5, display "SkillSafari".
+
+      // for (let i = 1; i <= 100; i++) {
+      //   if (i % 3 === 0 && i % 5 === 0) {
+      //     console.log("SkillSafari");
+      //   } else if (i % 3 === 0) {
+      //     console.log("Skill");
+      //   } else if (i % 5 === 0) {
+      //     console.log("Safari");
+      //   } else {
+      //     console.log(i);
+      //   }
+      // }
+
+      // Implement a function called calculateDigitPowerSum that takes a positive integer n as a parameter and calculates the sum of each digit raised to the power of its position. For example, for the number 123, the sum would be 1^1 + 2^2 + 3^3 = 1 + 4 + 27 = 32.
+
+      // function calculateDigitPowerSum(n) {
+      //   let sum = 0;
+      //   let n_str = n.toString();
+      //   for (let i = 0; i < n_str.length; i++) {
+      //     let digit = parseInt(n_str[i]);
+      //     let position = i + 1;
+      //     let power = Math.pow(digit, position);
+      //     sum += power;
+      //   }
+      //   return sum;
+      // }
+      // console.log(calculateDigitPowerSum(123));
+      // console.log(calculateDigitPowerSum(456));
+      // console.log(calculateDigitPowerSum(789));
+
+      // Write a program that asks the user to input a positive integer using prompt and then displays all the multiples of that number from 1 to 100.
+
+      // let number = prompt("Enter a positive integer");
+      // number = Number(number);
+      // if (isNaN(number) || number <= 0) {
+      //   console.log("Invalid input. Please enter a positive integer.");
+      // } else {
+      //   for (let i = 1; i <= 100; i++) {
+      //     if (i % number === 0) {
+      //       console.log(i);
+      //     }
+      //   }
+      // }
+
+      // Create a program that generates numbers from 1 to 200. For multiples of 7, display "Divisible by 7"; for multiples of 9, display "Divisible by 9"; and for numbers that are multiples of both 7 and 9, display "Divisible by 7 and 9".
+
+      // for (let i = 1; i <= 200; i++) {
+      //   if (i % 7 === 0 && i % 9 === 0) {
+      //     console.log("Divisible by 7 and 9");
+      //   } else if (i % 7 === 0) {
+      //     console.log("Divisible by 7");
+      //   } else if (i % 9 === 0) {
+      //     console.log("Divisible by 9");
+      //   } else {
+      //     console.log(i);
+      //   }
+      // }
+
+      // Create a function called isStrongNumber that takes a positive integer as a parameter and returns true if it is a strong number (the sum of the factorials of its digits is equal to the number itself), and false otherwise.
+
+      // function isStrongNumber(n) {
+      //   let sum = 0;
+      //   let n_str = n.toString();
+      //   for (let digit of n_str) {
+      //     digit = parseInt(digit);
+      //     let factorial = 1;
+      //     for (let i = 1; i <= digit; i++) {
+      //       factorial *= i;
+      //     }
+      //     sum += factorial;
+      //   }
+      //   if (sum === n) {
+      //     return true;
+      //   } else {
+      //     return false;
+      //   }
+      // }
+      // console.log(isStrongNumber(145));
+      // console.log(isStrongNumber(1450));
+    </script>
+  </body>
+</html>
